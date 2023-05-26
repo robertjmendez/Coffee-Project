@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f1eb;
+}
+
+nav li {
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.frank {
+    font-family: 'Frank Ruhl Libre', serif;
+    background: linear-gradient(to top, #7e5019, #b27326);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+main {
+    margin-top: 6em;
+}
