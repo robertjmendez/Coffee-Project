@@ -58,7 +58,16 @@ main {
     }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 491px) {
+    .frank {
+        font-size: 1.5rem;
+    }
+    .raleway {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 492px) {
     .frank {
         font-size: 2.1rem;
     }
