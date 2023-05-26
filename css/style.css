@@ -16,6 +16,12 @@ nav li {
     font-family: 'Raleway', sans-serif;
 }
 
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
 .frank {
     font-family: 'Frank Ruhl Libre', serif;
     background: linear-gradient(to top, #7e5019, #b27326);
