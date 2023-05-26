@@ -31,3 +31,32 @@ nav li {
 main {
     margin-top: 6em;
 }
+
+
+
+@media (min-width: 1200px) {
+    .coffee-image-left {
+        position: absolute;
+        top: 52%; /* Adjust the vertical position as needed */
+        left: 0;
+        transform: translate(-50%, -50%) rotate(-50deg);
+        z-index: -1;
+    }
+
+    .coffee-image-right {
+        position: absolute;
+        top: 58%; /* Adjust the vertical position as needed */
+        right: -2%;
+        transform: translate(50%, -50%) rotate(-60deg);
+    }
+}
+
+@media (max-width: 1199px) {
+    .coffee-image-left,
+    .coffee-image-right {
+        display: none;
+    }
+}
+
+
+
