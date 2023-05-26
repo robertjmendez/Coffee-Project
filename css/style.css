@@ -28,11 +28,6 @@ nav li {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-main {
-    margin-top: 7em;
-}
-
-
 
 @media (min-width: 1200px) {
     .coffee-image-left {
@@ -101,7 +96,9 @@ main {
     .raleway {
         font-size: 2.2rem;
     }
-
+    main {
+        margin-top: 6em;
+    }
 }
 
 @media (min-width: 1200px) {
