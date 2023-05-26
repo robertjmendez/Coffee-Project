@@ -8,13 +8,14 @@ body {
     background-color: #f4f1eb;
 }
 
-nav li {
+nav li, .header, .top-header {
     font-family: 'Frank Ruhl Libre', serif;
 }
 
-.raleway {
+.raleway, .label {
     font-family: 'Raleway', sans-serif;
 }
+
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -28,6 +29,39 @@ nav li {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/* Limit the image height on the card and ensure it covers the area */
+.card-img-top {
+    width: 100%;
+    max-height: 140px;
+    object-fit: cover;
+}
+
+/* Padding inside the card */
+.card-body {
+    padding: 15px;
+}
+
+/* Add a transition to card and center it, change background color on hover */
+.card {
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.gradient-button {
+    background: linear-gradient(to bottom, #c49062, #8c5a3f);
+    /*color: #fff;*/
+    /*padding: 10px 20px;*/
+    border: none;
+    /*border-radius: 5px;*/
+    /*cursor: pointer;*/
+}
+
+
 
 @media (max-width: 491px) {
     .frank {

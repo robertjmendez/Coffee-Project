@@ -6,7 +6,7 @@
         return `
         <div class="col-xs-12 col-sm-12 col-xl-4 col-lg-6 col-md-6 mb-4">
             <div class="card h-100">
-                <img class="card-img-top" src="../img/coffee.png" alt="${coffee.name}">
+                <img class="card-img-top" src="${coffee.image}" alt="${coffee.name}">
                 <div class="card-body">
                     <h5 class="card-title">${coffee.name}</h5>
                     <p class="card-text">${coffee.roast}</p>
@@ -55,20 +55,20 @@
 // Array of coffee objects
 // from http://www.ncausa.org/About-Coffee/Coffee-Roasts-Guide
     let coffees = [
-        {id: 1, name: 'Morning Bliss', roast: 'light'},
-        {id: 2, name: 'Heavenly Aroma', roast: 'light'},
-        {id: 3, name: 'Espresso Delight', roast: 'light'},
-        {id: 4, name: 'Caramel DreamMocha Magic', roast: 'medium'},
-        {id: 5, name: 'Mocha Magic', roast: 'medium'},
-        {id: 6, name: 'Caramel Dream', roast: 'medium'},
-        {id: 7, name: 'Hazelnut Harmony', roast: 'dark'},
-        {id: 8, name: 'Cinnamon Swirl', roast: 'dark'},
-        {id: 9, name: 'Chocolate Raspberry Temptation', roast: 'dark'},
-        {id: 10, name: 'Coconut Cream Serenade', roast: 'dark'},
-        {id: 11, name: 'Pumpkin Spice Delight', roast: 'dark'},
-        {id: 12, name: 'Irish Cream Euphoria', roast: 'dark'},
-        {id: 13, name: 'Almond Amaretto Fusion', roast: 'dark'},
-        {id: 14, name: 'Peppermint Mocha Sensation', roast: 'dark'},
+        {id: 1, name: 'Morning Bliss', roast: 'light', image: '../img/coffee-1.png'},
+        {id: 2, name: 'Heavenly Aroma', roast: 'light', image: '../img/coffee-2.png'},
+        {id: 3, name: 'Espresso Delight', roast: 'light', image: '../img/coffee-3.png'},
+        {id: 4, name: 'Caramel DreamMocha Magic', roast: 'medium', image: '../img/coffee-4.png'},
+        {id: 5, name: 'Mocha Magic', roast: 'medium', image: '../img/coffee-5.png'},
+        {id: 6, name: 'Caramel Dream', roast: 'medium', image: '../img/coffee-6.png'},
+        {id: 7, name: 'Hazelnut Harmony', roast: 'dark', image: '../img/coffee-7.png'},
+        {id: 8, name: 'Cinnamon Swirl', roast: 'dark', image: '../img/coffee-1.png'},
+        {id: 9, name: 'Chocolate Raspberry Temptation', roast: 'dark', image: '../img/coffee-2.png'},
+        {id: 10, name: 'Coconut Cream Serenade', roast: 'dark', image: '../img/coffee-3.png'},
+        {id: 11, name: 'Pumpkin Spice Delight', roast: 'dark', image: '../img/coffee-4.png'},
+        {id: 12, name: 'Irish Cream Euphoria', roast: 'dark', image: '../img/coffee-5.png'},
+        {id: 13, name: 'Almond Amaretto Fusion', roast: 'dark', image: '../img/coffee-6.png'},
+        {id: 14, name: 'Peppermint Mocha Sensation', roast: 'dark', image: '../img/coffee-7.png'},
     ];
 
 // Query DOM elements
