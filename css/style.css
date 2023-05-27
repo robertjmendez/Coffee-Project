@@ -71,6 +71,10 @@ nav li, .header, .top-header {
     border: none;
 }
 
+.section-text {
+    font-size: 1.3rem
+}
+
 
 
 @media (max-width: 491px) {
