@@ -27,7 +27,7 @@ nav li, .header, .top-header {
     font-size: 1.3rem;
 }
 
-.frank, .top-header {
+.frank, .top-header, .contact-us {
     font-family: 'Frank Ruhl Libre', serif;
     background: linear-gradient(to top, #7e5019, #b27326);
     -webkit-background-clip: text;
@@ -69,6 +69,7 @@ nav li, .header, .top-header {
 .gradient-button {
     background: linear-gradient(to bottom, #c49062, #8c5a3f);
     border: none;
+    color: white;
 }
 
 .section-text {
