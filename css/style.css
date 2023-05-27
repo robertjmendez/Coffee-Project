@@ -29,7 +29,7 @@ nav li, .header, .top-header, .section-header {
 
 .frank, .top-header, .contact-us, .our-services {
     font-family: 'Frank Ruhl Libre', serif;
-    background: linear-gradient(to top, #874B24, #D4865C);
+    background: linear-gradient(to top, #C24B14, #BB8317);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -67,9 +67,13 @@ nav li, .header, .top-header, .section-header {
 }
 
 .gradient-button {
-    background-color: #CE885E;
+    background-color: #EF7F32;
     border: none;
     color: #FFF6F2;
+}
+
+.gradient-button:hover {
+    background-color: #FF8C3F;
 }
 
 .section-text {
