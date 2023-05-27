@@ -5,10 +5,10 @@
 }
 
 body {
-    background-color: #f4f1eb;
+    background-color: #efece7;
 }
 
-nav li, .header, .top-header {
+nav li, .header, .top-header, .section-header {
     font-family: 'Frank Ruhl Libre', serif;
 }
 
@@ -16,7 +16,7 @@ nav li, .header, .top-header {
     font-size: 1.2rem;
 }
 
-.raleway, .label, .section-text {
+.raleway, .label, .section-text, .services-text {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -27,9 +27,9 @@ nav li, .header, .top-header {
     font-size: 1.3rem;
 }
 
-.frank, .top-header, .contact-us {
+.frank, .top-header, .contact-us, .our-services {
     font-family: 'Frank Ruhl Libre', serif;
-    background: linear-gradient(to top, #7e5019, #b27326);
+    background: linear-gradient(to top, #874B24, #D4865C);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -44,7 +44,7 @@ nav li, .header, .top-header {
 /* Padding inside the card */
 .card-body {
     padding: 15px;
-    background-color: #f4f1eb;
+    background-color: #efece7;
 }
 
 /* Add a transition to card and center it, change background color on hover */
@@ -67,13 +67,17 @@ nav li, .header, .top-header {
 }
 
 .gradient-button {
-    background: linear-gradient(to bottom, #c49062, #8c5a3f);
+    background-color: #CE885E;
     border: none;
-    color: white;
+    color: #FFF6F2;
 }
 
 .section-text {
     font-size: 1.3rem
+}
+
+.search-coffees {
+    color: #572815;
 }
 
 @media (max-width: 491px) {
@@ -166,6 +170,9 @@ nav li, .header, .top-header {
         font-size: 4rem;
     }
 }
+
+
+
 
 
 

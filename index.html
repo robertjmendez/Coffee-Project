@@ -1,54 +1,76 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <!-- Basic page metadata -->
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+    <!-- External CSS (Bootstrap and Google Fonts) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&family=Raleway:wght@300&display=swap"
           rel="stylesheet">
+
+    <!-- Local CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="container">
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- Navigation Bar for Mobile -->
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+
+        <!-- Navigation Links -->
         <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Left Navigation Links -->
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item mx-auto">
-                    <a class="nav-link text-dark mr-lg-2" href="our-coffee.html">OUR COFFEE</a>
+                    <a class="nav-link mr-lg-2" href="our-coffee.html">OUR COFFEE</a>
                 </li>
                 <li class="nav-item mx-auto">
-                    <a class="nav-link text-dark" href="services.html">SERVICES</a>
+                    <a class="nav-link" href="services.html">SERVICES</a>
                 </li>
             </ul>
-            <a class="navbar-brand mx-auto logo d-none d-lg-block" href="index.html">Sip & Savor</a>
+
+            <!-- Logo (visible on large screens) -->
+            <a class="navbar-brand mx-auto logo d-none d-lg-block search-coffees" href="index.html">Sip & Savor</a>
+
+            <!-- Right Navigation Links -->
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item mx-auto">
-                    <a class="nav-link text-dark" href="about-us.html">ABOUT US</a>
+                    <a class="nav-link" href="about-us.html">ABOUT US</a>
                 </li>
                 <li class="nav-item mx-auto">
-                    <a class="nav-link text-dark ml-lg-2" href="contact-us.html">CONTACT US</a>
+                    <a class="nav-link ml-lg-2" href="contact-us.html">CONTACT US</a>
                 </li>
             </ul>
         </div>
     </nav>
+
+    <!-- Main content area -->
     <main>
+        <!-- Heading Text -->
         <div>
+            <!-- Logo (visible on mobile screens) -->
             <h1 class="text-center raleway d-lg-none mb-4">
                 <a class="navbar-brand mx-auto logo text-dark" href="#">Sip & Savor</a>
             </h1>
-            <h1 class="text-center raleway mb-3">IGNITE YOUR SENSES</h1>
+
+            <!-- Heading text -->
+            <h1 class="text-center raleway mb-3 search-coffees">IGNITE YOUR SENSES</h1>
             <h1 class="text-center frank display-3 mb-3">EMBRACE THE PERFECT BREW</h1>
-            <h1 class="text-center raleway mb-3">A JOURNEY THROUGH COFFEE</h1>
+            <h1 class="text-center raleway mb-3 search-coffees">A JOURNEY THROUGH COFFEE</h1>
             <h1 class="text-center frank display-3 mb-4">SIP, SAVOR, RENEW</h1>
         </div>
+
+        <!-- Image -->
         <div class="d-flex justify-content-center coffee-image">
             <img src="img/coffee-cups.png" alt="Coffee Beans">
         </div>
@@ -56,6 +78,7 @@
 </div>
 
 
+<!-- External JS (jQuery, Popper, and Bootstrap) -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>

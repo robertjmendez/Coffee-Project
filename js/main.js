@@ -5,11 +5,11 @@
     function renderCoffee(coffee) {
         return `
         <div class="col-xs-12 col-sm-12 col-xl-2 col-md-6 mb-4">
-                <div class="card h-100">
+                <div class="card h-100 ">
                     <img class="card-img-top" src="${coffee.image}" alt="${coffee.name}">
                     <div class="card-body">
-                        <h5 class="card-title">${coffee.name}</h5>
-                        <p class="card-text">${coffee.roast}</p>
+                        <h5 class="card-title search-coffees">${coffee.name}</h5>
+                        <p class="card-text search-coffees">${coffee.roast}</p>
                     </div>
                 </div>
             </div>
