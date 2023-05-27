@@ -16,7 +16,7 @@ nav li, .header, .top-header {
     font-size: 1.2rem;
 }
 
-.raleway, .label {
+.raleway, .label, .section-text {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -70,6 +70,8 @@ nav li, .header, .top-header {
     background: linear-gradient(to bottom, #c49062, #8c5a3f);
     border: none;
 }
+
+
 
 @media (max-width: 491px) {
     .frank {
