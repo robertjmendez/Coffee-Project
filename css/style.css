@@ -76,8 +76,6 @@ nav li, .header, .top-header {
     font-size: 1.3rem
 }
 
-
-
 @media (max-width: 491px) {
     .frank {
         font-size: 1.5rem;
