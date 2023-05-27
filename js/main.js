@@ -4,15 +4,15 @@
 // Function to render single coffee object into HTML
     function renderCoffee(coffee) {
         return `
-        <div class="col-xs-12 col-sm-12 col-xl-4 col-lg-6 col-md-6 mb-4">
-            <div class="card h-100">
-                <img class="card-img-top" src="${coffee.image}" alt="${coffee.name}">
-                <div class="card-body">
-                    <h5 class="card-title">${coffee.name}</h5>
-                    <p class="card-text">${coffee.roast}</p>
+        <div class="col-xs-12 col-sm-12 col-xl-2 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="${coffee.image}" alt="${coffee.name}">
+                    <div class="card-body">
+                        <h5 class="card-title">${coffee.name}</h5>
+                        <p class="card-text">${coffee.roast}</p>
+                    </div>
                 </div>
             </div>
-        </div>
     `;
     }
 
@@ -40,13 +40,15 @@
         tbody.innerHTML = renderCoffees(filteredCoffees);
     }
 
+
 // Function to add a new coffee to the list
     function addCoffee(e) {
         e.preventDefault();
         let newCoffee = {
             id: coffees.length + 1,
             name: newCoffeeName.value,
-            roast: newRoastSelection.value.toLowerCase()
+            roast: newRoastSelection.value.toLowerCase(),
+            image: "../img/coffee-4.png"
         }
         coffees.push(newCoffee);
         tbody.innerHTML = renderCoffees(coffees);
@@ -88,4 +90,6 @@
     searchInput.addEventListener('input', updateCoffees);
     roastSelection.addEventListener('change', updateCoffees);
     newCoffeeForm.addEventListener('submit', addCoffee);
+
+
 })();

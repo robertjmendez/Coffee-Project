@@ -40,14 +40,14 @@
             </ul>
         </div>
     </nav>
-    <h1 class="text-center top-header">Explore Our Exquisite Coffee Selection</h1>
+    <h1 class="text-center top-header my-4">Explore Our Exquisite Coffee Selection</h1>
     <!-- Row for forms -->
-    <div class="row pt-2">
+    <div class="row pt-2 mt-5">
         <!-- Column for coffee search form -->
-        <div class="col-lg-6 col-xs-12">
+        <div class="col-xl-6 col-12">
             <!-- Form for searching coffees -->
             <form>
-                <div class="text-center font-weight-bold mb-3 header">SEARCH COFFEES</div>
+                <div class="text-center font-weight-bold mb-2 header">SEARCH COFFEES</div>
                 <label for="roast-selection" class="mb-2 font-weight-bold w-100 label">Roast Type</label>
                 <select class="form-control mb-3 input" id="roast-selection">
                     <option>All</option>
@@ -58,11 +58,12 @@
                 <div class="form-group">
                     <label for="search-input" class="font-weight-bold label">Coffee Name</label>
                     <input class="form-control mb-3 input" id="search-input" type="text"
-                           placeholder="Search coffees"/>
+                           placeholder="Search Coffees"/>
                     <input id="submit" class="btn btn-primary w-100 mb-5 button gradient-button" type="submit"/>
                 </div>
             </form>
-
+        </div>
+        <div class="col-xl-6 col-12">
             <!-- Form for adding new coffee -->
             <form id="new-coffee-form">
                 <div class="text-center font-weight-bold mb-2 header">ADD A COFFEE</div>
@@ -76,14 +77,14 @@
                     <label for="new-coffee-name" class="font-weight-bold label">Coffee Name</label>
                     <input class="form-control mb-3 input" id="new-coffee-name" type="text"
                            placeholder="Coffee Name" required/>
-                    <input type="submit" class="btn btn-primary w-100 button gradient-button" value="Add Coffee"/>
+                    <input type="submit" class="btn btn-primary w-100 button gradient-button mb-4" value="Add Coffee"/>
                 </div>
                 <div class="space"></div>
             </form>
         </div>
 
         <!-- Column for displaying coffee search results -->
-        <div class="col-lg-6 col-sm-12">
+        <div class="col-lg-12 col-sm-12">
             <div id="coffees"></div>
         </div>
     </div>

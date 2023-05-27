@@ -12,6 +12,10 @@ nav li, .header, .top-header {
     font-family: 'Frank Ruhl Libre', serif;
 }
 
+.header {
+    font-size: 1.2rem;
+}
+
 .raleway, .label {
     font-family: 'Raleway', sans-serif;
 }
@@ -23,7 +27,7 @@ nav li, .header, .top-header {
     font-size: 1.3rem;
 }
 
-.frank {
+.frank, .top-header {
     font-family: 'Frank Ruhl Libre', serif;
     background: linear-gradient(to top, #7e5019, #b27326);
     -webkit-background-clip: text;
@@ -40,6 +44,7 @@ nav li, .header, .top-header {
 /* Padding inside the card */
 .card-body {
     padding: 15px;
+    background-color: #f4f1eb;
 }
 
 /* Add a transition to card and center it, change background color on hover */
@@ -52,16 +57,19 @@ nav li, .header, .top-header {
     transform: scale(1.02);
 }
 
-.gradient-button {
-    background: linear-gradient(to bottom, #c49062, #8c5a3f);
-    /*color: #fff;*/
-    /*padding: 10px 20px;*/
-    border: none;
-    /*border-radius: 5px;*/
-    /*cursor: pointer;*/
+.card-title {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 1.2rem;
 }
 
+.card-text {
+    font-family: 'Raleway', sans-serif;
+}
 
+.gradient-button {
+    background: linear-gradient(to bottom, #c49062, #8c5a3f);
+    border: none;
+}
 
 @media (max-width: 491px) {
     .frank {
@@ -73,6 +81,9 @@ nav li, .header, .top-header {
     .coffee-image img {
         height:100px;
         width: 318px;
+    }
+    .top-header {
+        font-size: 1.2rem;
     }
 }
 
@@ -87,6 +98,9 @@ nav li, .header, .top-header {
         height:100px;
         width: 318px;
     }
+    .top-header {
+        font-size: 1.7rem;
+    }
 }
 
 @media (min-width: 576px) {
@@ -95,6 +109,9 @@ nav li, .header, .top-header {
     }
     .raleway {
         font-size: 1.4rem;
+    }
+    .top-header {
+        font-size: 1.9rem;
     }
 }
 
@@ -108,6 +125,9 @@ nav li, .header, .top-header {
     .coffee-image img {
         height:150px;
         width: 479px;
+    }
+    .top-header {
+        font-size: 2.5rem;
     }
 }
 
@@ -125,6 +145,9 @@ nav li, .header, .top-header {
         height:200px;
         width: 640px;
     }
+    .top-header {
+        font-size: 3.2rem;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -133,6 +156,9 @@ nav li, .header, .top-header {
     }
     .raleway {
         font-size: 2.5rem;
+    }
+    .top-header {
+        font-size: 4rem;
     }
 }
 
