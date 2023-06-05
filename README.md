@@ -33,6 +33,7 @@ Live demo of the project can be found at [Coffee Project](https://coffee-project
 - JavaScript
 - HTML
 - CSS
+- Bootstrap
 
 ## Setup
 
